@@ -1,7 +1,11 @@
 # Do Amanhã
 
-Running the project:
+* Install [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 
-Install Flask: `pip install flask`
+* Install [Python 3.6](https://www.python.org/)
 
-Run the application: `FLASK_DEBUG=1 FLASK_APP=app.py flask run`
+* Create a virtual env `virtualenv -p python3.6 lib`
+
+* Install Flask: `pip install flask`
+
+* Run the application: `FLASK_DEBUG=1 FLASK_APP=app.py flask run` or `python app.py`
