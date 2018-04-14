@@ -15,3 +15,6 @@ def show():
     }
 
     return render_template('show.html', data=data)
+
+if __name__ == '__main__':
+    app.run()
