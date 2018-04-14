@@ -6,6 +6,8 @@
 
 * Create a virtual env `virtualenv -p python3.6 lib`
 
+* Activate the virtual env `source lib/bin/activate`
+
 * Install Flask: `pip install flask`
 
 * Run the application: `FLASK_DEBUG=1 FLASK_APP=app.py flask run` or `python app.py`
